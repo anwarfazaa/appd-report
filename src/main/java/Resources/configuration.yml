@@ -1,0 +1,38 @@
+# Configuration
+
+#Appdynamics events service information
+host: ""
+globalAccountName: ""
+eventsApiKey: ""
+useSSL: "false"
+
+#Appdynamics Application settings
+applicationName: ""
+tierName: ""
+
+#set business transctions filters
+businessTransactionsFilter: ""
+businessTransactionsError: ""
+
+#Report time window , if set to false , custom dates will be used
+autoDate: "true"
+
+#set custom dates
+startDate: "2021-06-29"
+endDate: "2021-06-28"
+
+
+
+# For setting up SMTP account information 
+# for multiple email recipients split them by using comma ,
+# for email subject - only as alias
+smtpEmailAccount:
+  from : "accountname@email.com"
+  enableAuth : "false"
+  username: "user"
+  password: "password"
+  host: "mail.localhost"
+  port: "25"
+  enableTls : "true"
+  emailRecipients: "email@host.com,email2@host.com"  
+  emailSubject: "Report"  

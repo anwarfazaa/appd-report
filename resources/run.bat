@@ -1,0 +1,1 @@
+java -jar psd2.jar
